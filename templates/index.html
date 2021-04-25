@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    div.heading{
+        text-align: center;
+        color: aqua;
+        margin-top: 50px;
+        font-size: 30px;
+        font-weight: bold;
+        font-family: "Lucida Console", "Courier New", monospace;
+    }
+    div.image_upload{
+        border: 5px solid;
+        border-radius:5px;
+        border-color: rgb(145, 61, 148);
+        padding: 50px;
+        margin: 40px;
+        background-color: aquamarine;
+    }
+    label {
+        background-color: indigo;
+        color: white;
+        padding: 0.5rem;
+        font-family: sans-serif;
+        border-radius: 0.3rem;
+        cursor: pointer;
+        margin-top: 1rem;
+        box-shadow: 2px;
+
+        }
+    .alert{
+        color: rgb(236, 10, 10);
+        font-size: 30px;
+        padding: 1rem    
+    }
+
+</style>
+<body bgcolor="black">
+    <div class="heading">
+        Color...Me
+    </div>
+<h5 class="alert"><center>{{ text }}</center></h5>
+<div class="image_upload">
+    <form action="/submit" method="post" enctype="multipart/form-data">
+        <input type="file" id="upload" name="upload"   hidden/>
+        <label for="upload">Choose file</label>
+        <input type="submit">
+      </form>
+</div>
+{% if filename %}
+    <img src="C:\\Users\\Vipul Singh\\Desktop\\colorme\\Upload\\{{ filename }}.jpg" alt="alternate" />
+    <img src="C:\\Users\\Vipul Singh\\Desktop\\colorme\\output\\o2.jpg" alt="alternate" />
+{% endif %}
+
+</body>
+</html>
+
+
+<!-- montrula cast,  livocitizin   Nimoslide 100 -->   
