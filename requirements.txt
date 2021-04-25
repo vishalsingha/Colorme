@@ -1,6 +1,6 @@
 flask
 numpy
 pillow
-tensorflow
+tensorflow-cpu
 keras
 skimage
