@@ -1,6 +1,6 @@
-flask
-numpy
+Flask==1.1.2
 pillow
 tensorflow-cpu
 keras
-scikit-image
+scikit-image==0.17.2
+numpy==1.19.5
