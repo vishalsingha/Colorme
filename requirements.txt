@@ -1,6 +1,7 @@
 Flask==1.1.2
+numpy==1.19.5
 Pillow==8.1.2
 tensorflow-cpu
 Keras==2.4.3
 scikit-image==0.17.2
-numpy==1.19.5
+
