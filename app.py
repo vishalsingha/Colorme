@@ -2,7 +2,6 @@
 
 from flask import Flask, request, redirect, url_for, render_template, flash
 import numpy as np
-from PIL import Image
 import tensorflow as tf
 import keras
 import  os
