@@ -1,6 +1,6 @@
 Flask
 Werkzeug==1.0.1
-cmake
+Cython==0.29.13
 gunicorn==19.9.0
 tensorflow-cpu
 Keras
