@@ -1,5 +1,6 @@
 Flask
 Werkzeug==1.0.1
+gunicorn==19.9.0
 tensorflow-cpu
 Keras
 scikit-image==0.14.0
