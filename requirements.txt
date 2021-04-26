@@ -1,5 +1,6 @@
 Flask
 numpy
+Werkzeug==1.0.1
 tensorflow-cpu
 Keras
 scikit-image
