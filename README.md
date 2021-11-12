@@ -50,7 +50,7 @@ The skyble layers are Conv2D layer.<br><br>
 # Deployment:
 Colorme webapp for the demo purpose is deployed via flask framework. For increasing the speed of the model regular tensorflow model was converted into <b>Tensorflow Lite</b> which increase the latency of the model much.
 
-Deployment link: [Link](http://vipul02vns.pythonanywhere.com/)
+Deployment link: [http://vipul02vns.pythonanywhere.com/](http://vipul02vns.pythonanywhere.com/)
 
 
 
