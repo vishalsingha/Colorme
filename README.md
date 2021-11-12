@@ -50,14 +50,15 @@ The skyble layers are Conv2D layer.<br><br>
 # Deployment:
 Colorme webapp for the demo purpose is deployed via flask framework. For increasing the speed of the model regular tensorflow model was converted into <b>Tensorflow Lite</b> which increase the latency of the model much.
 
-<pre>
+```python
 # convert to tflite model
 converter = tf.lite.TFLiteConverter.from_keras_model(model)
 converter.allow_custom_ops = True
 converter.optimizations = [tf.lite.Optimize.DEFAULT]
 converter.target_spec.supported_types = [tf.float16]
 tflite_model = converter.convert()
-</pre>
+
+```
 
 Deployment link: [http://vipul02vns.pythonanywhere.com/](http://vipul02vns.pythonanywhere.com/)
 
