@@ -1,4 +1,6 @@
-# Colorme
+# Colorme [[see website]](http://vipul02vns.pythonanywhere.com/)
+
+
 
 Colorme is a image blorization project which takes the black and white images as input and return the colored image as the output of the model.In this project we have taken taken 100K colored images and built a model using pretrained VGG16 model as a base model for feature extracture and than added few set of Conv2D and UpSampling 2D layer to get the output image.
 
@@ -44,3 +46,11 @@ The skyble layers are Conv2D layer.<br><br>
 <img src='https://github.com/vishalsingha/Colorme/blob/main/output/res6.jpg?raw=truee'  height= 170px weidth = 250px>
 
 </p>
+
+# Deployment:
+Colorme webapp for the demo purpose is deployed via flask framework. For increasing the speed of the model regular tensorflow model was converted into <b>Tensorflow Lite</b> which increase the latency of the model much.
+
+Deployment link: [Link](http://vipul02vns.pythonanywhere.com/)
+
+
+
