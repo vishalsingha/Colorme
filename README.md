@@ -2,7 +2,7 @@
 
 
 
-Colorme is a image blorization project which takes the black and white images as input and return the colored image as the output of the model.In this project we have taken taken 100K colored images and built a model using pretrained VGG16 model as a base model for feature extracture and than added few set of Conv2D and UpSampling 2D layer to get the output image.
+Colorme is a image colorization project which takes the black and white images as input and return the colored image as the output of the model.In this project we have taken taken 100K colored images and built a model using pretrained VGG16 model as a base model for feature extracture and than added few set of Conv2D and UpSampling 2D layer to get the output image.
 
 
 
