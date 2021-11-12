@@ -63,4 +63,7 @@ tflite_model = converter.convert()
 Deployment link: [http://vipul02vns.pythonanywhere.com/](http://vipul02vns.pythonanywhere.com/)
 
 
-
+- [x] Model Training
+- [x] Deployment through flask
+- [x] Conversion regular tensoflow to tflite and deploy
+- [ ] Deployment via docker
