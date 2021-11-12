@@ -65,5 +65,5 @@ Deployment link: [http://vipul02vns.pythonanywhere.com/](http://vipul02vns.pytho
 # To Do list
 - [x] Model Training
 - [x] Deployment through flask
-- [x] Conversion regular tensoflow to tflite and deploy
+- [x] Conversion of regular tensoflow to tflite and deploy
 - [ ] Deployment via docker
