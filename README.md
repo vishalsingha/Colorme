@@ -48,6 +48,7 @@ The skyble layers are Conv2D layer.<br><br>
 </p>
 
 # Deployment:
+## Using flask:
 Colorme webapp for the demo purpose is deployed via flask framework. For increasing the speed of the model regular tensorflow model was converted into <b>Tensorflow Lite</b> which increase the latency of the model much.
 
 ```python
@@ -62,8 +63,11 @@ tflite_model = converter.convert()
 
 Deployment link: [http://vipul02vns.pythonanywhere.com/](http://vipul02vns.pythonanywhere.com/)
 
+## Using flask n top of docker container
+
+
 # To Do list
 - [x] Model Training
 - [x] Deployment through flask
 - [x] Conversion of regular tensoflow to tflite and deploy
-- [ ] Deployment via docker
+- [x] Deployment via docker
