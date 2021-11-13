@@ -63,7 +63,24 @@ tflite_model = converter.convert()
 
 Deployment link: [http://vipul02vns.pythonanywhere.com/](http://vipul02vns.pythonanywhere.com/)
 
-## Using flask n top of docker container
+## Using flask on top of docker container
+
+* Made Dockerfile by using prebuilt anaconda image from dockerhub and deployed on heroku [[SEE Deployment]](bw2c.herokuapp.com)
+```docker
+From continuumio/anaconda3:latest
+
+
+WORKDIR /app
+
+COPY requirements.txt requirements.txt
+RUN pip3 install -r requirements.txt
+
+COPY . .
+
+CMD [ "python3", "app.py"]
+```
+
+
 
 
 # To Do list
