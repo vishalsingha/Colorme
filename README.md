@@ -1,4 +1,4 @@
-# Colorme [[see website]](http://vipul02vns.pythonanywhere.com/)
+# Colorme [[see website]](http://bw2c.herokuapp.com/)
 
 
 
@@ -61,11 +61,11 @@ tflite_model = converter.convert()
 
 ```
 
-Deployment link: [http://vipul02vns.pythonanywhere.com/](http://vipul02vns.pythonanywhere.com/)
+Deployment link: [http://bw2c.herokuapp.com/](http://bw2c.herokuapp.com/)
 
 ## Using flask on top of docker container
 
-* Made Dockerfile by using prebuilt anaconda image from dockerhub and deployed on heroku [[SEE Deployment]](bw2c.herokuapp.com)
+* Made Dockerfile by using prebuilt anaconda image from dockerhub and deployed on heroku [[SEE Deployment]](http://bw2c.herokuapp.com/)
 ```docker
 From continuumio/anaconda3:latest
 
